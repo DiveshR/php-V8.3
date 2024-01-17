@@ -20,3 +20,29 @@ $jsonString = '{"name" : "Karan"}';
 $isValid = json_validate($jsonString);
 var_dump($isValid); // return true on correct condition false if no json data.
 ````
+
+#### 2. Dynamic class constant fetch
+
+- PHP 8.3 allows you to fetch constants with a more dynamic syntax:
+
+##### PHP < 8.3
+
+````
+class Foo 
+{
+    const BAR = 'bar';
+}
+$name = 'BAR';
+constant(Foo::class . '::' . $name);
+````
+
+##### PHP=8.3
+
+````
+class Foo 
+{
+    const BAR = 'bar';
+}
+$name = 'BAR';
+Foo::{$name};
+````
