@@ -1,4 +1,4 @@
-<p align="center"><a href="https://www.php.net/" target="_blank"><img src="https://www.php.net/images/logos/php-logo.svg" width="200" alt="PHP Logo"></a></p>
+<p align="center"><a href="https://www.php.net/" target="_blank"><img src="https://www.php.net/images/logos/php-logo.svg" width="100" alt="PHP Logo"></a></p>
 
 ## About PHP Version 8.3
 
